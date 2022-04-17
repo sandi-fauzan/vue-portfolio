@@ -4,6 +4,8 @@ import Skills from '../views/Skills.vue'
 import Projects from '../views/Projects.vue'
 import Contact from '../views/Contact.vue'
 
+
+
 const routes = [
   {
     path: '/',

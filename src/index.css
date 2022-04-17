@@ -9,8 +9,9 @@ html {
 }
 
 body {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(251, 251, 251);
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 

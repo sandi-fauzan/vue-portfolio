@@ -115,6 +115,9 @@
 <script>
 export default {
   name: "Contact",
+  created() {
+    document.title = "Contact Me";
+  },
 };
 </script>
 

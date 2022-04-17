@@ -31,23 +31,25 @@
             <h2 class="mt-2 text-sm text-gray-400">
               Front-end Web Developer & Web Designer
             </h2>
-            <button
-              class="
-                mt-9
-                rounded-full
-                text-sm
-                py-3
-                px-16
-                bg-primary
-                text-white
-                font-semibold
-                hover:text-primary hover:bg-violet-100
-                transition
-                duration-100
-              "
-            >
-              Contact Me
-            </button>
+            <router-link to="/Contact">
+              <button
+                class="
+                  mt-9
+                  rounded-full
+                  text-sm
+                  py-3
+                  px-16
+                  bg-primary
+                  text-white
+                  font-semibold
+                  hover:text-primary hover:bg-purple-100
+                  transition
+                  duration-100
+                "
+              >
+                Contact Me
+              </button>
+            </router-link>
           </div>
         </div>
       </div>
@@ -68,14 +70,17 @@
                 text-secondary
                 md:text-base
                 text-sm
-                px-20
+                px-10
+                lg:px-44
                 tracking-wider
-                leading-6
+                lg:leading-10
+                leading-8
+                text-left
               "
             >
-              I am a Front-End Developer located in Majalengka, Indonesia. I
-              have a passion for Web Development, User Interface/User Experience
-              and Ghraphic Design.
+              I am a Front-End Developer located in Majalengka, Indonesia. Talks
+              about Vue, Tailwind, CSS and related topics, Also i have interest
+              in User Interface/User Experience Design.
             </p>
           </div>
         </div>
@@ -88,5 +93,8 @@
 <script>
 export default {
   name: "Home",
+  created() {
+    document.title = "Home";
+  },
 };
 </script>

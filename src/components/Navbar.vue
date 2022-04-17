@@ -3,7 +3,8 @@
   <header
     class="
       bg-transparent
-      lg:px-64
+      lg:px-44
+      md:px-32
       absolute
       top-0
       left-0
@@ -83,6 +84,7 @@
                   to="/"
                   class="
                     lg:text-sm
+                    md:text-sm
                     text-base
                     flex
                     text-dark
@@ -98,6 +100,7 @@
                   to="/Skills"
                   class="
                     lg:text-sm
+                    md:text-sm
                     text-base
                     flex
                     text-dark
@@ -113,6 +116,7 @@
                   to="/Projects"
                   class="
                     lg:text-sm
+                    md:text-sm
                     text-base
                     flex
                     text-dark
@@ -128,6 +132,7 @@
                   to="/Contact"
                   class="
                     lg:text-sm
+                    md:text-sm
                     text-base
                     flex
                     text-dark
@@ -179,7 +184,7 @@ export default {
   z-index: 9999;
   background-color: rgba(255, 255, 255, 0.127);
   backdrop-filter: blur(5px);
-  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.6);
 }
 
 /* Hamburger */
